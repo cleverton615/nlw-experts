@@ -1,94 +1,94 @@
 const perguntas = [
-    {
-      pergunta: "O que é JavaScript?",
-      respostas: [
-        "Uma linguagem de marcação",
-        "Um sistema operacional",
-        "Uma linguagem de programação",
-      ],
-      correta: 2
-    },
-    {
-      pergunta: "Qual é a principal função do console.log() em JavaScript?",
-      respostas: [
-        "Imprimir documentos HTML",
-        "Registrar mensagens no console do navegador",
-        "Executar funções assíncronas",
-      ],
-      correta: 1
-    },
-    {
-      pergunta: "Como se declara uma variável em JavaScript?",
-      respostas: [
-        "var nomeVariavel;",
-        "variavel = 10;",
-        "const = nomeVariavel;",
-      ],
-      correta: 0
-    },
-    {
-      pergunta: "O que é um array em JavaScript?",
-      respostas: [
-        "Um tipo de dado para armazenar números inteiros",
-        "Uma estrutura de controle de fluxo",
-        "Uma lista ordenada de valores",
-      ],
-      correta: 2
-    },
-    {
-      pergunta: "Qual é o operador de comparação estrita em JavaScript?",
-      respostas: [
-        "==",
-        "===",
-        "!=",
-      ],
-      correta: 1
-    },
-    {
-      pergunta: "O que é uma função em JavaScript?",
-      respostas: [
-        "Um tipo de dado para armazenar textos",
-        "Um bloco de código reutilizável",
-        "Um operador matemático",
-      ],
-      correta: 1
-    },
-    {
-      pergunta: "Como se realiza uma estrutura condicional simples em JavaScript?",
-      respostas: [
-        "if (condicao) { /* código */ }",
-        "switch (valor) { case opcao: /* código */ }",
-        "for (i=0; i<5; i++) { /* código */ }",
-      ],
-      correta: 0
-    },
-    {
-      pergunta: "O que é o DOM em JavaScript?",
-      respostas: [
-        "Document Object Model - Modelo de Objeto de Documento",
-        "Um framework popular",
-        "Um tipo de variável",
-      ],
-      correta: 0
-    },
-    {
-      pergunta: "Qual é a função do método push() em arrays?",
-      respostas: [
-        "Remover elementos do final do array",
-        "Adicionar elementos no início do array",
-        "Adicionar elementos no final do array",
-      ],
-      correta: 2
-    },
-    {
-      pergunta: "O que é uma expressão regular em JavaScript?",
-      respostas: [
-        "Um tipo de dado para armazenar datas",
-        "Um padrão de busca de texto",
-        "Uma função para ordenar arrays",
-      ],
-      correta: 1
-    },
+  {
+    pergunta: "Qual é a função principal do sistema operacional em um computador?",
+    respostas: [
+      "Controlar o hardware e fornecer serviços para os programas",
+      "Editar documentos de texto",
+      "Acessar a internet",
+    ],
+    correta: 0
+  },
+  {
+    pergunta: "O que significa a sigla 'CPU'?",
+    respostas: [
+      "Central Processing Unit",
+      "Computer Personal Unit",
+      "Control Processing Unit",
+    ],
+    correta: 0
+  },
+  {
+    pergunta: "Qual é a principal função da memória RAM?",
+    respostas: [
+      "Armazenar permanentemente os dados",
+      "Executar cálculos matemáticos",
+      "Armazenar temporariamente dados e programas em uso",
+    ],
+    correta: 2
+  },
+  {
+    pergunta: "Qual é o componente responsável por exibir imagens no monitor?",
+    respostas: [
+      "Placa de rede",
+      "Placa de vídeo",
+      "Placa de som",
+    ],
+    correta: 1
+  },
+  {
+    pergunta: "O que é um software?",
+    respostas: [
+      "Parte física do computador",
+      "Conjunto de instruções que o computador segue",
+      "Dispositivo de armazenamento",
+    ],
+    correta: 1
+  },
+  {
+    pergunta: "Qual é a função de um navegador de internet?",
+    respostas: [
+      "Proteger o computador contra vírus",
+      "Editar imagens",
+      "Acessar e visualizar páginas web",
+    ],
+    correta: 2
+  },
+  {
+    pergunta: "O que significa 'backup' em informática?",
+    respostas: [
+      "Atualização de software",
+      "Cópia de segurança de dados",
+      "Formatação de disco",
+    ],
+    correta: 1
+  },
+  {
+    pergunta: "Qual é a unidade de medida básica de armazenamento de dados?",
+    respostas: [
+      "Bit",
+      "Byte",
+      "Hertz",
+    ],
+    correta: 1
+  },
+  {
+    pergunta: "Qual é a função de um antivírus?",
+    respostas: [
+      "Acelerar a velocidade de internet",
+      "Proteger o computador contra software malicioso",
+      "Aumentar a capacidade de armazenamento",
+    ],
+    correta: 1
+  },
+  {
+    pergunta: "O que é um periférico de entrada?",
+    respostas: [
+      "Dispositivo que envia dados para o computador",
+      "Dispositivo que recebe dados do computador",
+      "Dispositivo que armazena dados",
+    ],
+    correta: 0
+  },
   ];
   
   const quiz = document.querySelector('#quiz')

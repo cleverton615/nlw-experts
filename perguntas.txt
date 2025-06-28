@@ -1,0 +1,12 @@
+Crie 10 perguntas sobre o tópico TEMA com 3 opções de resposta e uma resposta correta para compor um aplicativo em JavaScript. Responda em essa estrutura de dados do exemplo abaixo.
+const perguntas = [
+  {
+    pergunta: "Pergunta 01",
+    respostas: [
+      "Resposta A",
+      "Resposta B",
+      "Resposta C",
+    ],
+    correta: 2
+  },
+]
